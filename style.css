@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.landing{
+    background-color: rgb(5, 184, 255);
+    position: relative;
+}
+.land p{
+    margin-left: 15ch;
+    margin-top: -6ch;
+    margin-bottom: 15px;
+
+}
+.land img{
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+}
+.land{
+    align-items: center;
+}
+
+nav {  
+    margin: 0px auto 0;
+    position: relative;
+    width: 590px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 0;
+}
+nav a {
+    margin-top: -10px;
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+a{
+    margin-left: 50px;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url("talisay.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head{
+    margin: 20ch 15ch;
+    font-size: larger;
+}
+.head h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 8ch;
+    letter-spacing: 5px;
+    text-shadow:
+    -5px -1px 0 #000,
+    2px -1px 0 #000,
+    -2px 1px 0 #000,
+    2px 1px 0 #000;
+
+}
+.head h2{
+    font-size: 3ch;
+    color: rgb(245, 233, 73);
+    text-shadow: -3px -1px 0 #000,
+     -1px 0px 0 #000,
+    1px 0px 0 #000,
+    0px 0px 0 #000;
+
+}
+.head img{
+    height: 60ch;
+    border-radius: 1000px;
+    margin-left: 75ch;
+    margin-top: -37ch;
+    
+}
+.activity{
+    height: 100vh;
+    width: 100%;
+}
+.activity h1{
+    margin-top: 11ch;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 5ch;
+    letter-spacing: 5px;
+    text-shadow:
+    -2px -1px 0 rgb(81, 99, 0),
+    0px -1px 0 rgb(57, 70, 0),
+    0px 1px 0 rgb(61, 75, 1),
+    0px 1px 0 rgb(50, 61, 0);
+}
+.swiper {
+    margin-top: 5ch;
+    width: 50%;
+    height: 85%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.off{
+        height: 90vh;
+        width: 100%;
+}
+.new{
+    font-size: bold;
+    color: white;
+    background: rgba(0, 0, 0, 0.46);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
+     height: 100vh;
+    width: 70%;
+    text-align: center;
+    margin-left: 32ch;  
+}
+.new h1{
+    padding-top: 50px;
+}
+.new img{
+    padding-top: 3ch;
+}
+/*form area*/
+.ask{
+    height: 80vh;
+    width: 100%;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+ button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+
+  .container {
+    height: 70ch;
+    width: 70ch;
+    border-radius: 5px;
+    background-color: rgba(224, 216, 93, 0.719);
+    padding: 20px;
+    margin-top: 25ch;
+    margin-left: 10ch;
+  }
+  .container h4{
+    text-align: center;
+    font-size: 3ch;
+    margin-bottom: 10px;
+  }
+/*
+.ask h1{
+    font-size: bold;
+    color: white;
+    text-align: center;
+    margin-top: 2ch;
+}
+.box{
+    background-color: white;
+    height: 20ch;
+    width: 35ch;
+    border: solid black 2px;
+    margin-left: 10ch;
+    margin-top: 20ch;
+}
+.box h4{
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 10px;
+
+}
+.int{
+    margin-left: 10px;
+}
+.mess{
+    margin-left: 10px;
+}*/
+.vid{
+    float: left;
+    margin-left: 55%;
+    margin-top: -74ch;
+    border: solid rgb(224, 216, 93,) 15px;
+}
+.partner{
+    width: 100%;
+}
+.tener{
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+.tener img{
+    width: 160px;
+    height: 160px;
+    margin: 20px;
+    border-radius: 50%;
+    margin-left: 25ch;
+}
+.tener h1{
+    text-align: center;
+    font-size: 5ch;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.links{
+    background-color: rgb(245, 233, 73);
+    height: 40vh;
+}
+.last h1{
+    font-size: 5ch;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+.last h2{
+    font-size: 4ch;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+.last p {
+    font-size: 2ch;
+    margin-left: 50px;
+    padding-top: 1ch;
+    letter-spacing: 2px;
+}
+.socials{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.mapouter{
+    float: right;
+    margin-right: 60ch;
+    margin-top: -27ch;
+}
+.last{
+    padding-top: 2ch;
+}
+footer {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1) {
+    font-size: 21px;
+    color: white;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+footer p:nth-child(2) {
+    font-size: 16px;
+    color: #858585;
+    font-weight: 100;
+}
+.social {
+    font-size: 35px;
+    text-align: center;
+    text-indent: 4px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
